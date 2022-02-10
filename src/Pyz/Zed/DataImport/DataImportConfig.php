@@ -15,6 +15,7 @@ use Spryker\Zed\StockAddressDataImport\StockAddressDataImportConfig;
  */
 class DataImportConfig extends SprykerDataImportConfig
 {
+    public const IMPORT_TYPE_ANTELOPE = 'antelope';
     public const IMPORT_TYPE_CATEGORY_TEMPLATE = 'category-template';
     public const IMPORT_TYPE_CUSTOMER = 'customer';
     public const IMPORT_TYPE_GLOSSARY = 'glossary';
